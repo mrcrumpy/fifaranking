@@ -3,6 +3,8 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    {% block meta %}
+    {% endblock %}
 
     <title>FIFA Weltrangliste</title>
     <link rel="stylesheet" href="/css/main.css" />
@@ -15,5 +17,13 @@
     {% endblock %}
 </div>
     <script type="text/javascript" src="js/bundle.js"></script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=770793842951052";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>

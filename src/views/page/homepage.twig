@@ -12,7 +12,8 @@
                     <th>S</th>
                     <th>U</th>
                     <th>N</th>
-                    <th>Points</th>
+                    <th>Ø</th>
+                    <th>Punkte</th>
                     <th>Torverhältnis</th>
                 </tr>
                 {% for i, rank in ranking %}
@@ -23,10 +24,23 @@
                         <td>{{ rank.victories }}</td>
                         <td>{{ rank.draw }}</td>
                         <td>{{ rank.loss }}</td>
+                        <td>{{ rank.average }}</td>
                         <td>{{ rank.points }}</td>
                         <td>{{ rank.goals - rank.goals_against }}</td>
                     </tr>
                 {% endfor %}
+            </table>
+
+            <table>
+            {% for i, game in lastGames %}
+
+                    <tr>
+                        <td>{{ game.player }}</td>
+                        <td><a href="/game/{{ game.id }}">{{ game.goals }} : {{ game.goals_against }}</a></td>
+                        <td>{{ game.enemy }}</td>
+                    </tr>
+
+            {% endfor %}
             </table>
         </div>
     </div>

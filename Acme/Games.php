@@ -25,16 +25,30 @@ class Games
           SUM(points) points,
           SUM(goals) goals,
           SUM(goals_against) goals_against,
+          round(sum(points)/count(points), 1) average,
           count(points) count,
           count(case points when 3 then 1 else null end) victories,
           count(case points when 1 then 1 else null end) draw,
           count(case points when 0 then 1 else null end) loss
-          FROM games g INNER JOIN user u ON g.player_id = u.id GROUP BY u.id ORDER BY g.points DESC');
+          FROM games g INNER JOIN user u ON g.player_id = u.id GROUP BY u.id ORDER BY SUM(g.points) DESC');
+    }
+
+    static function getLastGames()
+    {
+        return R::getAll('SELECT
+          g.id id, u.name player, goals, goals_against, c.name enemy
+          FROM games g INNER JOIN user u ON g.player_id = u.id INNER JOIN user c ON g.enemy_id = c.id WHERE (g.id % 2) = 0 ORDER BY g.date DESC LIMIT 5');
     }
 
     static function getPlayer($player)
     {
         return R::getAll('SELECT name, SUM(points) points, SUM(goals) goals, SUM(goals_against) goals_against, count(case points when 3 then 1 else null end) victories, count(case points when 1 then 1 else null end) draw, count(case points when 0 then 1 else null end) loss FROM games g INNER JOIN user u ON g.player_id = u.id WHERE u.name = ? GROUP BY u.id ORDER BY g.points DESC', [$player]);
+    }
+    static function getGame($game)
+    {
+        return R::getAll('SELECT
+          g.id id, u.name player, goals, goals_against, c.name enemy
+          FROM games g INNER JOIN user u ON g.player_id = u.id INNER JOIN user c ON g.enemy_id = c.id WHERE g.id = ?', [$game]);
     }
 
     static function getUserID($name)
@@ -87,9 +101,13 @@ class Games
 
     public function store()
     {
+        date_default_timezone_set('Europe/Berlin');
+        $date = date("Y-m-d h:i:s", time());
+
         $game = R::dispense('games');
         $game->player_id = self::getUserID($this->player);
         $game->enemy_id = self::getUserID($this->enemy);
+        $game->date = $date;
         $game->goals = $this->goals;
         $game->goals_against = $this->goals_against;
         $game->points = self::getPoints($this->goals, $this->goals_against);
@@ -98,6 +116,7 @@ class Games
         $game = R::dispense('games');
         $game->player_id = self::getUserID($this->enemy);
         $game->enemy_id = self::getUserID($this->player);
+        $game->date = $date;
         $game->goals = $this->goals_against;
         $game->goals_against = $this->goals;
         $game->points = self::getPoints($this->goals_against, $this->goals);

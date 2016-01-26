@@ -71,6 +71,8 @@ $app->match('/', 'Acme\\HomepageController::showIndex');
 
 $app->match('/player/{player}', 'Acme\\HomepageController::showPlayer');
 
+$app->match('/game/{game}', 'Acme\\HomepageController::showGame');
+
 $app->match('/admin', 'Acme\\HomepageController::showForm');
 
 

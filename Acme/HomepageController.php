@@ -15,8 +15,10 @@ class HomepageController
     {
 
         $ranking = Games::getRanking();
+        $lastGames = Games::getLastGames();
         return $app['twig']->render('page/homepage.twig', array(
-            "ranking" => $ranking
+            "ranking" => $ranking,
+            "lastGames" => $lastGames
         ));
     }
     public function showPlayer(Request $request, Application $app, $player)
@@ -25,6 +27,16 @@ class HomepageController
         $profile = Games::getPlayer($player);
         return $app['twig']->render('page/player.twig', array(
             "profile" => $profile
+        ));
+    }
+
+    public function showGame(Request $request, Application $app, $game)
+    {
+
+        $game = Games::getGame($game);
+
+        return $app['twig']->render('page/game.twig', array(
+            "game" => $game
         ));
     }
 

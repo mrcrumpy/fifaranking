@@ -1,0 +1,33 @@
+{% extends('layout/base.twig') %}
+
+{% block meta %}
+    {% for item in game %}
+        <meta property="og:url" content="http://worldranking.app/game/{{ item.id }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="{{ item.player }} {{ item.goals }} : {{ item.goals_against }} {{ item.enemy }}" />
+        {#<meta property="og:description" content="How much does culture influence creative thinking?" />#}
+        {#<meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />#}
+    {% endfor %}
+{% endblock %}
+
+{% block content %}
+    {% for item in game %}
+        <div class="row">
+            <div class="column small-12">
+                <table>
+
+                    <tr>
+                        <td>{{ item.player }}</td>
+                        <td>{{ item.goals }} : {{ item.goals_against }}</td>
+                        <td>{{ item.enemy }}</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="column small-12">
+                <div class="fb-comments" data-width="100%" data-href="worldranking.app/game/{{ item.id }}" data-numposts="5"></div>
+            </div>
+        </div>
+
+    {% endfor %}
+{% endblock %}
