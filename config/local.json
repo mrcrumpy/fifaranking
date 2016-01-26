@@ -1,0 +1,7 @@
+{
+    "debug" : true,
+    "db_host" : "db" ,
+    "db_name" : "ranking",
+    "db_user" : "admin",
+    "db_pass" : "123"
+}

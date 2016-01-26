@@ -1,0 +1,28 @@
+{
+    "name": "richard/frontend-backend-boilerplate",
+    "require": {
+        "silex/silex": "~1.2",
+        "symfony/validator": "~2.6",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "twig/extensions": "*",
+        "symfony/twig-bridge": "~2.5",
+        "monolog/monolog": ">=1.0.0",
+        "igorw/config-service-provider": "~1.2",
+        "gabordemooij/redbean": "3.5.*",
+        "symfony/form": "2.6",
+        "symfony/security-csrf": "~2.4",
+        "symfony/config": "~2.6",
+        "symfony/translation": "~2.6"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Acme\\" : "Acme"
+        }
+    },
+    "authors": [
+        {
+            "name": "Richard Hoffmann",
+            "email": "r.hoffmann@crolla-lowis.de"
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+[Wed Jan 20 17:42:21.219996 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Wed Jan 20 17:42:21.220383 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Wed Jan 20 17:42:21.220826 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Wed Jan 20 17:42:21.221224 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Wed Jan 20 17:42:21.221540 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Wed Jan 20 17:42:21.222189 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Wed Jan 20 17:42:21.222637 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Wed Jan 20 17:42:21.245353 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Wed Jan 20 17:42:21.246322 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Wed Jan 20 17:42:21.246783 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Wed Jan 20 17:42:21.246965 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Wed Jan 20 17:42:21.247281 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Wed Jan 20 17:42:21.247642 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Wed Jan 20 17:42:21.247930 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module headers_module from /usr/lib/apache2/modules/mod_headers.so
+[Wed Jan 20 17:42:21.248259 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Wed Jan 20 17:42:21.248551 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module mpm_event_module from /usr/lib/apache2/modules/mod_mpm_event.so
+[Wed Jan 20 17:42:21.249011 2016] [so:debug] [pid 57:tid 140195774261120] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Wed Jan 20 17:42:21.251111 2016] [so:debug] [pid 57:tid 140195774261120] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Wed Jan 20 17:42:21.256339 2016] [so:debug] [pid 57:tid 140195774261120] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Wed Jan 20 17:42:21.257489 2016] [so:debug] [pid 57:tid 140195774261120] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Wed Jan 20 17:42:21.257939 2016] [so:debug] [pid 57:tid 140195774261120] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Wed Jan 20 17:42:21.258244 2016] [so:debug] [pid 57:tid 140195774261120] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00112: Warning: DocumentRoot [/var/www/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.9. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 20 17:42:21.269508 2016] [mpm_event:notice] [pid 57:tid 140195774261120] AH00489: Apache/2.4.7 (Ubuntu) configured -- resuming normal operations
+[Wed Jan 20 17:42:21.269893 2016] [core:notice] [pid 57:tid 140195774261120] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+[Wed Jan 20 17:43:33.980611 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Wed Jan 20 17:43:33.981374 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Wed Jan 20 17:43:33.981668 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Wed Jan 20 17:43:33.981886 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Wed Jan 20 17:43:33.982094 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Wed Jan 20 17:43:33.982304 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Wed Jan 20 17:43:33.982522 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Wed Jan 20 17:43:33.982712 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Wed Jan 20 17:43:33.982920 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Wed Jan 20 17:43:33.983183 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Wed Jan 20 17:43:33.983368 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Wed Jan 20 17:43:33.983546 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Wed Jan 20 17:43:33.983728 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Wed Jan 20 17:43:33.983921 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module headers_module from /usr/lib/apache2/modules/mod_headers.so
+[Wed Jan 20 17:43:33.984109 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Wed Jan 20 17:43:33.984328 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module mpm_event_module from /usr/lib/apache2/modules/mod_mpm_event.so
+[Wed Jan 20 17:43:33.984529 2016] [so:debug] [pid 56:tid 139969272162176] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Wed Jan 20 17:43:33.984747 2016] [so:debug] [pid 56:tid 139969272162176] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Wed Jan 20 17:43:33.984957 2016] [so:debug] [pid 56:tid 139969272162176] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Wed Jan 20 17:43:33.985167 2016] [so:debug] [pid 56:tid 139969272162176] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Wed Jan 20 17:43:33.985365 2016] [so:debug] [pid 56:tid 139969272162176] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Wed Jan 20 17:43:33.986218 2016] [so:debug] [pid 56:tid 139969272162176] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00112: Warning: DocumentRoot [/var/www/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.11. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 20 17:43:33.991910 2016] [core:warn] [pid 56:tid 139969272162176] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 20 17:43:33.992735 2016] [mpm_event:notice] [pid 56:tid 139969272162176] AH00489: Apache/2.4.7 (Ubuntu) configured -- resuming normal operations
+[Wed Jan 20 17:43:33.992939 2016] [core:notice] [pid 56:tid 139969272162176] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+[Wed Jan 20 18:08:25.954042 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Wed Jan 20 18:08:25.954868 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Wed Jan 20 18:08:25.955157 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Wed Jan 20 18:08:25.957156 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Wed Jan 20 18:08:25.957545 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Wed Jan 20 18:08:25.957900 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Wed Jan 20 18:08:25.958273 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Wed Jan 20 18:08:25.958506 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Wed Jan 20 18:08:25.958903 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Wed Jan 20 18:08:25.959246 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Wed Jan 20 18:08:25.959454 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Wed Jan 20 18:08:25.959794 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Wed Jan 20 18:08:25.960355 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Wed Jan 20 18:08:25.960880 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module headers_module from /usr/lib/apache2/modules/mod_headers.so
+[Wed Jan 20 18:08:25.961480 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Wed Jan 20 18:08:25.961812 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module mpm_event_module from /usr/lib/apache2/modules/mod_mpm_event.so
+[Wed Jan 20 18:08:25.962075 2016] [so:debug] [pid 56:tid 140097953175424] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Wed Jan 20 18:08:25.962390 2016] [so:debug] [pid 56:tid 140097953175424] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Wed Jan 20 18:08:25.962665 2016] [so:debug] [pid 56:tid 140097953175424] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Wed Jan 20 18:08:25.962949 2016] [so:debug] [pid 56:tid 140097953175424] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Wed Jan 20 18:08:25.963521 2016] [so:debug] [pid 56:tid 140097953175424] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Wed Jan 20 18:08:25.964017 2016] [so:debug] [pid 56:tid 140097953175424] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.17. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 20 18:08:25.975427 2016] [mpm_event:notice] [pid 56:tid 140097953175424] AH00489: Apache/2.4.7 (Ubuntu) configured -- resuming normal operations
+[Wed Jan 20 18:08:25.977435 2016] [core:notice] [pid 56:tid 140097953175424] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+[Wed Jan 20 18:34:52.865322 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Wed Jan 20 18:34:52.867778 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Wed Jan 20 18:34:52.868353 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Wed Jan 20 18:34:52.868581 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Wed Jan 20 18:34:52.868792 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Wed Jan 20 18:34:52.869026 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Wed Jan 20 18:34:52.869302 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Wed Jan 20 18:34:52.869515 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Wed Jan 20 18:34:52.869734 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Wed Jan 20 18:34:52.870006 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Wed Jan 20 18:34:52.870167 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Wed Jan 20 18:34:52.870563 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Wed Jan 20 18:34:52.870760 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Wed Jan 20 18:34:52.870966 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module headers_module from /usr/lib/apache2/modules/mod_headers.so
+[Wed Jan 20 18:34:52.871164 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Wed Jan 20 18:34:52.871389 2016] [so:debug] [pid 57] mod_so.c(266): AH01575: loaded module mpm_event_module from /usr/lib/apache2/modules/mod_mpm_event.so
+[Wed Jan 20 18:34:52.871598 2016] [so:debug] [pid 57:tid 139632668690304] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Wed Jan 20 18:34:52.871821 2016] [so:debug] [pid 57:tid 139632668690304] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Wed Jan 20 18:34:52.872038 2016] [so:debug] [pid 57:tid 139632668690304] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Wed Jan 20 18:34:52.872250 2016] [so:debug] [pid 57:tid 139632668690304] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Wed Jan 20 18:34:52.872452 2016] [so:debug] [pid 57:tid 139632668690304] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Wed Jan 20 18:34:52.872677 2016] [so:debug] [pid 57:tid 139632668690304] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.19. Set the 'ServerName' directive globally to suppress this message
+[Wed Jan 20 18:34:52.879863 2016] [core:warn] [pid 57:tid 139632668690304] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 20 18:34:52.880667 2016] [mpm_event:notice] [pid 57:tid 139632668690304] AH00489: Apache/2.4.7 (Ubuntu) configured -- resuming normal operations
+[Wed Jan 20 18:34:52.880852 2016] [core:notice] [pid 57:tid 139632668690304] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'
+[Tue Jan 26 14:36:06.142051 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module access_compat_module from /usr/lib/apache2/modules/mod_access_compat.so
+[Tue Jan 26 14:36:06.148364 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module alias_module from /usr/lib/apache2/modules/mod_alias.so
+[Tue Jan 26 14:36:06.149298 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module auth_basic_module from /usr/lib/apache2/modules/mod_auth_basic.so
+[Tue Jan 26 14:36:06.149669 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authn_core_module from /usr/lib/apache2/modules/mod_authn_core.so
+[Tue Jan 26 14:36:06.149985 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authn_file_module from /usr/lib/apache2/modules/mod_authn_file.so
+[Tue Jan 26 14:36:06.150295 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_core_module from /usr/lib/apache2/modules/mod_authz_core.so
+[Tue Jan 26 14:36:06.150606 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_host_module from /usr/lib/apache2/modules/mod_authz_host.so
+[Tue Jan 26 14:36:06.150890 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module authz_user_module from /usr/lib/apache2/modules/mod_authz_user.so
+[Tue Jan 26 14:36:06.151202 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module autoindex_module from /usr/lib/apache2/modules/mod_autoindex.so
+[Tue Jan 26 14:36:06.151602 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module deflate_module from /usr/lib/apache2/modules/mod_deflate.so
+[Tue Jan 26 14:36:06.151858 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module dir_module from /usr/lib/apache2/modules/mod_dir.so
+[Tue Jan 26 14:36:06.152143 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module env_module from /usr/lib/apache2/modules/mod_env.so
+[Tue Jan 26 14:36:06.152390 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module filter_module from /usr/lib/apache2/modules/mod_filter.so
+[Tue Jan 26 14:36:06.152648 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module headers_module from /usr/lib/apache2/modules/mod_headers.so
+[Tue Jan 26 14:36:06.152901 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module mime_module from /usr/lib/apache2/modules/mod_mime.so
+[Tue Jan 26 14:36:06.153191 2016] [so:debug] [pid 56] mod_so.c(266): AH01575: loaded module mpm_event_module from /usr/lib/apache2/modules/mod_mpm_event.so
+[Tue Jan 26 14:36:06.153530 2016] [so:debug] [pid 56:tid 140094063060864] mod_so.c(266): AH01575: loaded module negotiation_module from /usr/lib/apache2/modules/mod_negotiation.so
+[Tue Jan 26 14:36:06.153870 2016] [so:debug] [pid 56:tid 140094063060864] mod_so.c(266): AH01575: loaded module proxy_module from /usr/lib/apache2/modules/mod_proxy.so
+[Tue Jan 26 14:36:06.154132 2016] [so:debug] [pid 56:tid 140094063060864] mod_so.c(266): AH01575: loaded module proxy_fcgi_module from /usr/lib/apache2/modules/mod_proxy_fcgi.so
+[Tue Jan 26 14:36:06.154397 2016] [so:debug] [pid 56:tid 140094063060864] mod_so.c(266): AH01575: loaded module rewrite_module from /usr/lib/apache2/modules/mod_rewrite.so
+[Tue Jan 26 14:36:06.154634 2016] [so:debug] [pid 56:tid 140094063060864] mod_so.c(266): AH01575: loaded module setenvif_module from /usr/lib/apache2/modules/mod_setenvif.so
+[Tue Jan 26 14:36:06.154883 2016] [so:debug] [pid 56:tid 140094063060864] mod_so.c(266): AH01575: loaded module status_module from /usr/lib/apache2/modules/mod_status.so
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Jan 26 14:36:06.160813 2016] [mpm_event:notice] [pid 56:tid 140094063060864] AH00489: Apache/2.4.7 (Ubuntu) configured -- resuming normal operations
+[Tue Jan 26 14:36:06.161052 2016] [core:notice] [pid 56:tid 140094063060864] AH00094: Command line: '/usr/sbin/apache2 -e debug -D FOREGROUND'

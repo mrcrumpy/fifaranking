@@ -1,0 +1,33 @@
+{% extends('layout/base.twig') %}
+
+{% block content %}
+    {#{{ dump(ranking) }}#}
+    <div class="row">
+        <div class="column small-12">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Spiele</th>
+                    <th>S</th>
+                    <th>U</th>
+                    <th>N</th>
+                    <th>Points</th>
+                    <th>Torverhältnis</th>
+                </tr>
+                {% for i, rank in ranking %}
+                    <tr>
+                        <td>{{ i + 1 }}.</td>
+                        <td><a href="/player/{{ rank.name }}">{{ rank.name }}</a></td>
+                        <td>{{ rank.count }}</td>
+                        <td>{{ rank.victories }}</td>
+                        <td>{{ rank.draw }}</td>
+                        <td>{{ rank.loss }}</td>
+                        <td>{{ rank.points }}</td>
+                        <td>{{ rank.goals - rank.goals_against }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,20 @@
+web:
+  image: crollalowis/apache-php5
+  ports:
+    - "80:80"
+  links:
+    - db
+  volumes:
+    - .:/var/www
+    - ./compose/config/apache:/etc/apache2/sites-enabled:rw
+    - ./compose/logs/apache:/var/log/apache2:rw
+
+db:
+  image: crollalowis/mysql
+  volumes:
+    - ./compose/data/mysql:/var/lib/mysql
+    - ./sql:/root/sql-import
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_PASS: 123

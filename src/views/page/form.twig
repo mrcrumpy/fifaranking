@@ -1,0 +1,20 @@
+{% extends('layout/base.twig') %}
+
+{% block content %}
+    {#{{ dump(form) }}#}
+    <div class="row">
+        <div class="column small-12">
+            {{ form_start(form) }}
+            {{ form_widget(form.player, {'attr': {'class': 'form-control', 'placeholder': 'Spieler 1'} }) }}
+            {{ form_errors(form.player) }}
+            {{ form_widget(form.enemy, {'attr': {'class': 'form-control', 'placeholder': 'Spieler 2'}}) }}
+            {{ form_errors(form.enemy) }}
+            {{ form_widget(form.goals, {'attr': {}}) }}
+            {{ form_errors(form.goals) }}
+            {{ form_widget(form.goals_against, {'attr': {}}) }}
+            {{ form_errors(form.goals_against) }}
+            <input type="submit" value="Jetzt Eintragen"></input>
+            {{ form_end(form) }}
+        </div>
+    </div>
+{% endblock %}
