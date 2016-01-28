@@ -8,4 +8,4 @@ dist
 .vagrant
 !/logs
 /logs/*
-/compose/data
+/compose/data/
