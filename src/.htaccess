@@ -6,3 +6,22 @@
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^ index.php [QSA,L]
 </IfModule>
+
+# Do the regex check against the URI here, if match, set the "require_auth" var
+SetEnvIf Request_URI ^/admin require_auth=true
+
+# Auth stuff
+AuthUserFile htpasswd
+AuthName "Password Protected"
+AuthType Basic
+
+# Setup a deny/allow
+Order Deny,Allow
+# Deny from everyone
+Deny from all
+# except if either of these are satisfied
+Satisfy any
+# 1. a valid authenticated user
+Require valid-user
+# or 2. the "require_auth" var is NOT set
+Allow from env=!require_auth
