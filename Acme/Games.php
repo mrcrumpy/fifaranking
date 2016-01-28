@@ -25,7 +25,6 @@ class Games
           SUM(points) points,
           SUM(goals) goals,
           SUM(goals_against) goals_against,
-          round(sum(points)/count(points), 1) average,
           count(points) count,
           count(case points when 3 then 1 else null end) victories,
           count(case points when 1 then 1 else null end) draw,
