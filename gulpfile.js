@@ -44,7 +44,8 @@ gulp.task('views', function () {
   var stream = gulp.src([
     SRC_PATH + '/views/**/*.twig',
     SRC_PATH + '/index.php',
-    SRC_PATH + '/.htaccess'
+    SRC_PATH + '/.htaccess',
+    SRC_PATH + '/.htpasswd'
   ],
     { base: SRC_PATH });
 
